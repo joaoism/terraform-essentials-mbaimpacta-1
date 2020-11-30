@@ -11,8 +11,6 @@ terraform {
 provider "google" {
   version = "3.5.0"
 
-  credentials = file("/vagrant/starry-argon-292200-d36f667ec81f.json")
-
   project = "starry-argon-292200"
   region  = "us-central1"
   zone    = "us-central1-c"
