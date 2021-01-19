@@ -11,7 +11,7 @@ terraform {
 provider "google" {
   version = "3.5.0"
 
-  project = "starry-argon-292200"
+  project = "gaby-cloudautomation"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
